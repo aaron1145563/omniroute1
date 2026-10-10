@@ -1,4 +1,4 @@
-impor { readFileSync } from "node:fs";
+import { readFileSync } from "node:fs";
 import { setTimeout as sleep } from "node:timers/promises";
 import { apiFetch, isServerUp } from "../api.mjs";
 import { emit } from "../output.mjs";
